@@ -3,7 +3,6 @@
 require_once __DIR__ . "/db.php";
 
 class Person {
-
   public static function getAllPersons() {
     $db = Database::getInstance();
     $conn = $db->getConnection();
